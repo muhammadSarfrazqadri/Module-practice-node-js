@@ -12,7 +12,7 @@ const mulBtn = document.getElementById('addBtn')
 
 module.export = {num1 , num2, result}
 
-addBtn.addEventListener(click, (num1,num2)=> add(num1,num2));
-divBtn.addEventListener(click, (num1,num2)=> divide(num1,num2));
-subBtn.addEventListener(click, (num1,num2)=> subtract(num1,num2));
-mulBtn.addEventListener(click, (num1,num2)=> multiply(num1,num2));
+addBtn.addEventListener(click, add(num1,num2));
+divBtn.addEventListener(click, divide(num1,num2));
+subBtn.addEventListener(click, subtract(num1,num2));
+mulBtn.addEventListener(click, multiply(num1,num2));
